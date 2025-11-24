@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const PORT = 3000
 
-app.use(express.static('pubblic'));
+app.use(express.static('public'));
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`)
 })
@@ -50,7 +50,14 @@ const menu = [
 ]
 
 app.get('/bacheca', (req, res) => {
-    const imgLink = menu.map(product => ({}));
+    const imgLink = menu.map(product => ({
+        id: product.id,
+        name: product.name,
+        content: product.content,
+        img: product.img,
+        tags: product.tags,
+        url_immagine: `http://localhost:${PORT}${product.img}`
+    }));
 
     res.json(imgLink)
 })

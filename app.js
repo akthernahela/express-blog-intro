@@ -21,26 +21,26 @@ app.get('/menu', (req, res) => {
                 tags: []
         },
         {
-            name:
-                img:
+            name: "Cracker barbabietola",
+            img: "/img/cracker_barbabietola.jpeg",
             content:
                 tags: []
         },
         {
-            name:
-                img:
+            name: "Pane fritto dolce",
+            img: "/img/pane_fritto_dolce.jpeg",
             content:
                 tags: []
         },
         {
-            name:
-                img:
+            name: "Pasta barbabietola",
+            img: "/img/pasta_barbabietola.jpeg",
             content:
                 tags: []
         },
         {
-            name:
-                img:
+            name: "Torta paesana",
+            img: "/img/torta_paesana.jpeg",
             content:
                 tags: []
         }

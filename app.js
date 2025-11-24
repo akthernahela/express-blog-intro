@@ -15,7 +15,34 @@ app.get('/menu', (req, res) => {
 
     const menu = [
         {
-
+            name: "Ciambellone",
+            img: "/img/ciambellone.jpeg",
+            content:
+                tags: []
+        },
+        {
+            name:
+                img:
+            content:
+                tags: []
+        },
+        {
+            name:
+                img:
+            content:
+                tags: []
+        },
+        {
+            name:
+                img:
+            content:
+                tags: []
+        },
+        {
+            name:
+                img:
+            content:
+                tags: []
         }
     ]
 

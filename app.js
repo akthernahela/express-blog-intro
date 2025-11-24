@@ -17,32 +17,32 @@ app.get('/menu', (req, res) => {
         {
             name: "Ciambellone",
             img: "/img/ciambellone.jpeg",
-            content:
-                tags: []
+            content: "Dolce perfetto per la colazione",
+            tags: ["dolce", "colazione"]
         },
         {
             name: "Cracker barbabietola",
             img: "/img/cracker_barbabietola.jpeg",
-            content:
-                tags: []
+            content: "Merenda salata",
+            tags: ["salato", "barbabietola"]
         },
         {
             name: "Pane fritto dolce",
             img: "/img/pane_fritto_dolce.jpeg",
-            content:
-                tags: []
+            content: "Dolce fritto",
+            tags: ["dolce", "fritto"]
         },
         {
             name: "Pasta barbabietola",
             img: "/img/pasta_barbabietola.jpeg",
-            content:
-                tags: []
+            content: "Pasta alla barbabietola",
+            tags: ["primo", "barbabietola"]
         },
         {
             name: "Torta paesana",
             img: "/img/torta_paesana.jpeg",
-            content:
-                tags: []
+            content: "Torta tradizionale",
+            tags: ["dolce", "tradizionale"]
         }
     ]
 

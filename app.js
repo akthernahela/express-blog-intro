@@ -50,7 +50,7 @@ const menu = [
 ]
 
 app.get('/bacheca', (req, res) => {
+    const imgLink = menu.map(product => ({}));
 
-
-    res.json()
+    res.json(imgLink)
 })
